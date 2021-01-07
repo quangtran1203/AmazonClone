@@ -1,0 +1,75 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_logo {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  object-fit: contain;
+  width: 110px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.login_container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+.note {
+  font-size: small;
+  text-decoration: underline;
+}
+.login_container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login_container > form > h5 {
+  margin-bottom: 5px;
+}
+.login_container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.consent {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login_signinbutton {
+  background-color: #f0c14b;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid #9c7e31;
+  cursor: crosshair;
+  transition: 0.12s ease-in-out;
+  font-weight: 700;
+}
+.login_signinbutton:hover {
+  opacity: 0.8;
+  border-radius: 50%;
+}
+.login_create {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid darkgray;
+  margin-top: 10px;
+  background-color: darkgray;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.12s ease-in-out;
+}
+.login_create:hover {
+  opacity: 1;
+  font-weight: 700;
+  border-radius: 18px;
+}

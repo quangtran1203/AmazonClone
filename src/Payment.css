@@ -1,0 +1,79 @@
+.payment {
+  background-color: white;
+}
+.payment_container > h1 {
+  text-align: center;
+  font-family: cursive;
+  padding: 10px;
+  font-weight: 600;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+}
+.payment_container > h1 a {
+  text-decoration: none;
+}
+.payment_section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+.payment_title {
+  flex: 0.3; /*payment_title takes up 20% of the width*/
+}
+.payment_address,
+.payment_items,
+.payment_details {
+  flex: 0.7;
+}
+.importantnotes {
+  margin-top: 5px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+.recalc {
+  text-align: center;
+  margin-top: 20px;
+  width: 250px;
+  height: fit-content;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: 1.5px solid #dddddd;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+.recalc:hover {
+  transform: scale(1.15);
+  border-radius: 12px;
+  border: 2px solid #f3f3f3;
+  background-color: aliceblue;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.payment_details > form {
+  max-width: 430px;
+}
+.payment_priceContainer {
+  margin-top: 15px;
+}
+.buybutton {
+  margin-top: 15px;
+  padding: 5px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1.3px solid black;
+  background-color: #f0c14b;
+  color: #000000;
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+}
+.buybutton:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.buybutton > span {
+  font-size: medium;
+  font-weight: 600;
+}
